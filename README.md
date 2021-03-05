@@ -2,7 +2,8 @@
 
 API DO MERCADOBITCOIN EM PHP
 
-##USO
+## COMO USAR
+Apenas Substitua {MB_Identificador} e {MB_Segredo} pelo seu Identificador e seu Segredo, gerados em: https://www.mercadobitcoin.com.br/trade-api/configuracoes/
 
 ```
 require(__DIR__ . '/class.mb.inc.php');
