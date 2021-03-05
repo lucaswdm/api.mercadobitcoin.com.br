@@ -3,6 +3,7 @@
 API DO MERCADOBITCOIN EM PHP
 
 #USO#
+
 require(__DIR__ . '/class.mb.inc.php');
 
 $MB = new MB('{MB_Identificador}', '{MB_Segredo}');
