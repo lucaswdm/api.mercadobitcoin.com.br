@@ -1,0 +1,1 @@
+# api.mercadobitcoin.com.br
