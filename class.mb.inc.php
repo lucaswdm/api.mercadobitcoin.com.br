@@ -44,8 +44,6 @@
 			$ch = curl_init();
 
 			$header = array(
-				'TAPI-ID: ' . $this->ID,
-				'TAPI-MAC: ' . $signedMessage,
 				"Accept-Language: pt-BR;q=0.8,en-US;q=0.6,en;q=0.4"
 			);
 
