@@ -92,15 +92,7 @@
 				'TAPI-ID: ' . $this->ID,
 				'TAPI-MAC: ' . $signedMessage,
 				"Accept-Language: pt-BR;q=0.8,en-US;q=0.6,en;q=0.4"
-			);
-
-			depura($header, $POST);
-
-			
-
-			#depura($ENCODER);
-
-			
+			);			
 
 			curl_setopt($ch, CURLOPT_URL, $this->apiBaseUrl . $URI);
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
